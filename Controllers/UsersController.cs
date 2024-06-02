@@ -52,7 +52,6 @@ namespace ПР45_Осокин.Controllers
         {
             if (string.IsNullOrEmpty(Login) || string.IsNullOrEmpty(Password))
                 return StatusCode(400, "Логин и пароль неверны!");
-
             try
             {
                 using (var context = new UsersContext())
