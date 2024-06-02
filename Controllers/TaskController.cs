@@ -124,6 +124,7 @@ namespace ПР45_Осокин.Controllers
             {
                 return StatusCode(500, exp.Message);
             }
+
         }
         /// <summary>
         /// Метод удаления задачи
